@@ -12,11 +12,25 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ExistingField: UITextField!
     @IBOutlet weak var CreateField: UITextField!
+    
     @IBAction func ExistingEnd(_ sender: Any) {
         let enteredExistingText : String
         enteredExistingText = ExistingField.text!.lowercased()
         if(deckExists(deckName: enteredExistingText))
         {
+            performSegue(withIdentifier: "ExistingSegue", sender: Any?.self)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "ExistingSegue")
+        {
+            let dvc = segue.destination as! DeckViewController
+            
+        }
+        if(segue.identifier == "CreateSegue")
+        {
+            let cvc = segue.destination as! CreateViewController
             
         }
     }

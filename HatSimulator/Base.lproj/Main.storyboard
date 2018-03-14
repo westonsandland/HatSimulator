@@ -87,12 +87,13 @@
                     <connections>
                         <outlet property="CreateField" destination="Rvg-ll-MSC" id="buo-Lw-LGb"/>
                         <outlet property="ExistingField" destination="DFT-1W-GEy" id="Uvc-cH-11N"/>
-                        <segue destination="9kc-Fo-kXs" kind="show" id="Xor-av-iJT"/>
-                        <segue destination="J62-Nf-N9e" kind="show" id="Qtx-JU-o2P"/>
+                        <segue destination="9kc-Fo-kXs" kind="show" identifier="ExistingSegue" id="Xor-av-iJT"/>
+                        <segue destination="J62-Nf-N9e" kind="show" identifier="CreateSegue" id="Qtx-JU-o2P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-185" y="134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tl1-tc-4ie">
