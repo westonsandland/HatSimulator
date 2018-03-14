@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE60BBFE2059AF13004AB3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */; };
+		BE60BC002059AF13004AB3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BBFF2059AF13004AB3F1 /* ViewController.swift */; };
+		BE60BC032059AF13004AB3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE60BC012059AF13004AB3F1 /* Main.storyboard */; };
+		BE60BC052059AF13004AB3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE60BC042059AF13004AB3F1 /* Assets.xcassets */; };
+		BE60BC082059AF13004AB3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE60BC062059AF13004AB3F1 /* LaunchScreen.storyboard */; };
+		BE60BC132059AF13004AB3F1 /* HatSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC122059AF13004AB3F1 /* HatSimulatorTests.swift */; };
+		BE60BC1E2059AF13004AB3F1 /* HatSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE60BC0F2059AF13004AB3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE60BBF22059AF13004AB3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE60BBF92059AF13004AB3F1;
+			remoteInfo = HatSimulator;
+		};
+		BE60BC1A2059AF13004AB3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE60BBF22059AF13004AB3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE60BBF92059AF13004AB3F1;
+			remoteInfo = HatSimulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE60BBFA2059AF13004AB3F1 /* HatSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE60BBFF2059AF13004AB3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE60BC022059AF13004AB3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE60BC042059AF13004AB3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE60BC072059AF13004AB3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE60BC092059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE60BC0E2059AF13004AB3F1 /* HatSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE60BC122059AF13004AB3F1 /* HatSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatSimulatorTests.swift; sourceTree = "<group>"; };
+		BE60BC142059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE60BC192059AF13004AB3F1 /* HatSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatSimulatorUITests.swift; sourceTree = "<group>"; };
+		BE60BC1F2059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE60BBF72059AF13004AB3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE60BC0B2059AF13004AB3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE60BC162059AF13004AB3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE60BBF12059AF13004AB3F1 = {
+			isa = PBXGroup;
+			children = (
+				BE60BBFC2059AF13004AB3F1 /* HatSimulator */,
+				BE60BC112059AF13004AB3F1 /* HatSimulatorTests */,
+				BE60BC1C2059AF13004AB3F1 /* HatSimulatorUITests */,
+				BE60BBFB2059AF13004AB3F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE60BBFB2059AF13004AB3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE60BBFA2059AF13004AB3F1 /* HatSimulator.app */,
+				BE60BC0E2059AF13004AB3F1 /* HatSimulatorTests.xctest */,
+				BE60BC192059AF13004AB3F1 /* HatSimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE60BBFC2059AF13004AB3F1 /* HatSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */,
+				BE60BBFF2059AF13004AB3F1 /* ViewController.swift */,
+				BE60BC012059AF13004AB3F1 /* Main.storyboard */,
+				BE60BC042059AF13004AB3F1 /* Assets.xcassets */,
+				BE60BC062059AF13004AB3F1 /* LaunchScreen.storyboard */,
+				BE60BC092059AF13004AB3F1 /* Info.plist */,
+			);
+			path = HatSimulator;
+			sourceTree = "<group>";
+		};
+		BE60BC112059AF13004AB3F1 /* HatSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE60BC122059AF13004AB3F1 /* HatSimulatorTests.swift */,
+				BE60BC142059AF13004AB3F1 /* Info.plist */,
+			);
+			path = HatSimulatorTests;
+			sourceTree = "<group>";
+		};
+		BE60BC1C2059AF13004AB3F1 /* HatSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */,
+				BE60BC1F2059AF13004AB3F1 /* Info.plist */,
+			);
+			path = HatSimulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE60BBF92059AF13004AB3F1 /* HatSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE60BC222059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulator" */;
+			buildPhases = (
+				BE60BBF62059AF13004AB3F1 /* Sources */,
+				BE60BBF72059AF13004AB3F1 /* Frameworks */,
+				BE60BBF82059AF13004AB3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HatSimulator;
+			productName = HatSimulator;
+			productReference = BE60BBFA2059AF13004AB3F1 /* HatSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE60BC0D2059AF13004AB3F1 /* HatSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE60BC252059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulatorTests" */;
+			buildPhases = (
+				BE60BC0A2059AF13004AB3F1 /* Sources */,
+				BE60BC0B2059AF13004AB3F1 /* Frameworks */,
+				BE60BC0C2059AF13004AB3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE60BC102059AF13004AB3F1 /* PBXTargetDependency */,
+			);
+			name = HatSimulatorTests;
+			productName = HatSimulatorTests;
+			productReference = BE60BC0E2059AF13004AB3F1 /* HatSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE60BC182059AF13004AB3F1 /* HatSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE60BC282059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulatorUITests" */;
+			buildPhases = (
+				BE60BC152059AF13004AB3F1 /* Sources */,
+				BE60BC162059AF13004AB3F1 /* Frameworks */,
+				BE60BC172059AF13004AB3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE60BC1B2059AF13004AB3F1 /* PBXTargetDependency */,
+			);
+			name = HatSimulatorUITests;
+			productName = HatSimulatorUITests;
+			productReference = BE60BC192059AF13004AB3F1 /* HatSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE60BBF22059AF13004AB3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Weston Sandland";
+				TargetAttributes = {
+					BE60BBF92059AF13004AB3F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BE60BC0D2059AF13004AB3F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE60BBF92059AF13004AB3F1;
+					};
+					BE60BC182059AF13004AB3F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE60BBF92059AF13004AB3F1;
+					};
+				};
+			};
+			buildConfigurationList = BE60BBF52059AF13004AB3F1 /* Build configuration list for PBXProject "HatSimulator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE60BBF12059AF13004AB3F1;
+			productRefGroup = BE60BBFB2059AF13004AB3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE60BBF92059AF13004AB3F1 /* HatSimulator */,
+				BE60BC0D2059AF13004AB3F1 /* HatSimulatorTests */,
+				BE60BC182059AF13004AB3F1 /* HatSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE60BBF82059AF13004AB3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE60BC082059AF13004AB3F1 /* LaunchScreen.storyboard in Resources */,
+				BE60BC052059AF13004AB3F1 /* Assets.xcassets in Resources */,
+				BE60BC032059AF13004AB3F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE60BC0C2059AF13004AB3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE60BC172059AF13004AB3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE60BBF62059AF13004AB3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE60BC002059AF13004AB3F1 /* ViewController.swift in Sources */,
+				BE60BBFE2059AF13004AB3F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE60BC0A2059AF13004AB3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE60BC132059AF13004AB3F1 /* HatSimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE60BC152059AF13004AB3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE60BC1E2059AF13004AB3F1 /* HatSimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE60BC102059AF13004AB3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE60BBF92059AF13004AB3F1 /* HatSimulator */;
+			targetProxy = BE60BC0F2059AF13004AB3F1 /* PBXContainerItemProxy */;
+		};
+		BE60BC1B2059AF13004AB3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE60BBF92059AF13004AB3F1 /* HatSimulator */;
+			targetProxy = BE60BC1A2059AF13004AB3F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE60BC012059AF13004AB3F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE60BC022059AF13004AB3F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE60BC062059AF13004AB3F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE60BC072059AF13004AB3F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE60BC202059AF13004AB3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE60BC212059AF13004AB3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE60BC232059AF13004AB3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JF9NL3Y97;
+				INFOPLIST_FILE = HatSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = westonsandland.HatSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE60BC242059AF13004AB3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JF9NL3Y97;
+				INFOPLIST_FILE = HatSimulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = westonsandland.HatSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE60BC262059AF13004AB3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JF9NL3Y97;
+				INFOPLIST_FILE = HatSimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = westonsandland.HatSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HatSimulator.app/HatSimulator";
+			};
+			name = Debug;
+		};
+		BE60BC272059AF13004AB3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JF9NL3Y97;
+				INFOPLIST_FILE = HatSimulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = westonsandland.HatSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HatSimulator.app/HatSimulator";
+			};
+			name = Release;
+		};
+		BE60BC292059AF13004AB3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JF9NL3Y97;
+				INFOPLIST_FILE = HatSimulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = westonsandland.HatSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HatSimulator;
+			};
+			name = Debug;
+		};
+		BE60BC2A2059AF13004AB3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JF9NL3Y97;
+				INFOPLIST_FILE = HatSimulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = westonsandland.HatSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HatSimulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE60BBF52059AF13004AB3F1 /* Build configuration list for PBXProject "HatSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE60BC202059AF13004AB3F1 /* Debug */,
+				BE60BC212059AF13004AB3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE60BC222059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE60BC232059AF13004AB3F1 /* Debug */,
+				BE60BC242059AF13004AB3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE60BC252059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE60BC262059AF13004AB3F1 /* Debug */,
+				BE60BC272059AF13004AB3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE60BC282059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE60BC292059AF13004AB3F1 /* Debug */,
+				BE60BC2A2059AF13004AB3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE60BBF22059AF13004AB3F1 /* Project object */;
+}
