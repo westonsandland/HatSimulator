@@ -10,11 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ExistingField: UITextField!
+    @IBOutlet weak var CreateField: UITextField!
+    @IBAction func ExistingEnd(_ sender: Any) {
+        let enteredExistingText : String
+        enteredExistingText = ExistingField.text!.lowercased()
+        if(deckExists(deckName: enteredExistingText))
+        {
+            
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    func deckExists(deckName: String) -> Bool
+    {
+        //TODO: Check database for the deck name
+        return false;
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

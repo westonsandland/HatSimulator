@@ -14,6 +14,8 @@
 		BE60BC082059AF13004AB3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE60BC062059AF13004AB3F1 /* LaunchScreen.storyboard */; };
 		BE60BC132059AF13004AB3F1 /* HatSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC122059AF13004AB3F1 /* HatSimulatorTests.swift */; };
 		BE60BC1E2059AF13004AB3F1 /* HatSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */; };
+		BE60BC2C2059B45A004AB3F1 /* DeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */; };
+		BE60BC2E2059B47B004AB3F1 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BE60BC192059AF13004AB3F1 /* HatSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatSimulatorUITests.swift; sourceTree = "<group>"; };
 		BE60BC1F2059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViewController.swift; sourceTree = "<group>"; };
+		BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */,
 				BE60BBFF2059AF13004AB3F1 /* ViewController.swift */,
 				BE60BC012059AF13004AB3F1 /* Main.storyboard */,
+				BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */,
+				BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */,
 				BE60BC042059AF13004AB3F1 /* Assets.xcassets */,
 				BE60BC062059AF13004AB3F1 /* LaunchScreen.storyboard */,
 				BE60BC092059AF13004AB3F1 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE60BC2E2059B47B004AB3F1 /* CreateViewController.swift in Sources */,
 				BE60BC002059AF13004AB3F1 /* ViewController.swift in Sources */,
 				BE60BBFE2059AF13004AB3F1 /* AppDelegate.swift in Sources */,
+				BE60BC2C2059B45A004AB3F1 /* DeckViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
