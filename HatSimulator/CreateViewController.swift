@@ -9,7 +9,9 @@
 import UIKit
 
 class CreateViewController: UIViewController {
-
+    
+    var deckID : String! = "default"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

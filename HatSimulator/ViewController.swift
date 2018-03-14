@@ -12,9 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ExistingField: UITextField!
     @IBOutlet weak var CreateField: UITextField!
-    
+    var enteredExistingText : String = ""
+    var enteredCreateText : String = ""
     @IBAction func ExistingEnd(_ sender: Any) {
-        let enteredExistingText : String
         enteredExistingText = ExistingField.text!.lowercased()
         if(deckExists(deckName: enteredExistingText))
         {
@@ -22,16 +22,24 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func CreateEnd(_ sender: Any) {
+        enteredCreateText = CreateField.text!.lowercased()
+        if(!deckExists(deckName: enteredCreateText))
+        {
+            //TODO: Add deck to the database
+            performSegue(withIdentifier: "CreateSegue", sender: Any?.self)
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "ExistingSegue")
         {
             let dvc = segue.destination as! DeckViewController
-            
+            dvc.deckID = enteredExistingText
         }
         if(segue.identifier == "CreateSegue")
         {
             let cvc = segue.destination as! CreateViewController
-            
+            cvc.deckID = enteredCreateText
         }
     }
     
