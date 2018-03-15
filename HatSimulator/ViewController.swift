@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var enteredCreateText : String = ""
     @IBAction func ExistingEnd(_ sender: Any) {
         enteredExistingText = ExistingField.text!.lowercased()
-        if(deckExists(deckName: enteredExistingText))
+        if(deckNameIsValid(deckName: enteredExistingText) && deckExists(deckName: enteredExistingText))
         {
             performSegue(withIdentifier: "ExistingSegue", sender: Any?.self)
         }
@@ -24,12 +24,13 @@ class ViewController: UIViewController {
     
     @IBAction func CreateEnd(_ sender: Any) {
         enteredCreateText = CreateField.text!.lowercased()
-        if(!deckExists(deckName: enteredCreateText))
+        if(deckNameIsValid(deckName: enteredCreateText) && !deckExists(deckName: enteredCreateText))
         {
             //TODO: Add deck to the database
             performSegue(withIdentifier: "CreateSegue", sender: Any?.self)
         }
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "ExistingSegue")
         {
@@ -52,6 +53,12 @@ class ViewController: UIViewController {
     {
         //TODO: Check database for the deck name
         return false;
+    }
+    
+    func deckNameIsValid(deckName: String) -> Bool
+    {
+        //TODO: Check validity of deck name, i.e. right characters
+        return true;
     }
     
     override func didReceiveMemoryWarning() {
