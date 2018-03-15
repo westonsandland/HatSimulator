@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var CreateField: UITextField!
     var enteredExistingText : String = ""
     var enteredCreateText : String = ""
+    
     @IBAction func ExistingEnd(_ sender: Any) {
         enteredExistingText = ExistingField.text!.lowercased()
         if(deckNameIsValid(deckName: enteredExistingText) && deckExists(deckName: enteredExistingText))
