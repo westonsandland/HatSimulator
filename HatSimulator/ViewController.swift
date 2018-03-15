@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var ExistingField: UITextField!
     @IBOutlet weak var CreateField: UITextField!
+    @IBOutlet weak var ExistingErrorText: UILabel!
+    @IBOutlet weak var CreateErrorText: UILabel!
+    
     var enteredExistingText : String = ""
     var enteredCreateText : String = ""
     
@@ -49,6 +52,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        removeErrorTexts()
+    }
 
     func deckExists(deckName: String) -> Bool
     {
@@ -60,6 +67,22 @@ class ViewController: UIViewController {
     {
         //TODO: Check validity of deck name, i.e. right characters
         return true;
+    }
+    
+    func doesNotExistError()
+    {
+        ExistingErrorText.textColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+    }
+    
+    func alreadyCreatedError()
+    {
+        CreateErrorText.textColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+    }
+    
+    func removeErrorTexts()
+    {
+        ExistingErrorText.textColor = UIColor(white: 0.0, alpha: 0.0)
+        CreateErrorText.textColor = UIColor(white: 0.0, alpha: 0.0)
     }
     
     override func didReceiveMemoryWarning() {

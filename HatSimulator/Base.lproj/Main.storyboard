@@ -88,7 +88,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="vQP-bb-IIr"/>
                     <connections>
+                        <outlet property="CreateErrorText" destination="bcL-WC-jFf" id="Vig-fJ-P4L"/>
                         <outlet property="CreateField" destination="Rvg-ll-MSC" id="buo-Lw-LGb"/>
+                        <outlet property="ExistingErrorText" destination="4IS-v4-BPl" id="3kY-ip-t4i"/>
                         <outlet property="ExistingField" destination="DFT-1W-GEy" id="Uvc-cH-11N"/>
                         <segue destination="9kc-Fo-kXs" kind="show" identifier="ExistingSegue" id="Xor-av-iJT"/>
                         <segue destination="J62-Nf-N9e" kind="show" identifier="CreateSegue" id="Qtx-JU-o2P"/>
