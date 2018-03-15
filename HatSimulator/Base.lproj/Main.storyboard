@@ -115,16 +115,49 @@
             </objects>
             <point key="canvasLocation" x="827" y="538"/>
         </scene>
-        <!--View Controller-->
+        <!--Deck View Controller-->
         <scene sceneID="fQL-gt-cVG">
             <objects>
-                <viewController id="9kc-Fo-kXs" sceneMemberID="viewController">
+                <viewController id="9kc-Fo-kXs" customClass="DeckViewController" customModule="HatSimulator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K9C-h5-cgl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Card Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMB-4P-Ht0">
+                                <rect key="frame" x="150" y="323" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpE-MT-oYC">
+                                <rect key="frame" x="153" y="496" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next Card"/>
+                                <connections>
+                                    <action selector="NextCardRequest:" destination="9kc-Fo-kXs" eventType="touchUpInside" id="6vQ-wz-mCG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spz-zf-1CP">
+                                <rect key="frame" x="62" y="598" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Previous Card"/>
+                                <connections>
+                                    <action selector="PreviousCardRequest:" destination="9kc-Fo-kXs" eventType="touchUpInside" id="miz-cp-TUa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1t-K1-d9f">
+                                <rect key="frame" x="232" y="598" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Shuffle Deck"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="iDq-hR-tmc"/>
                     </view>
+                    <connections>
+                        <outlet property="CardLabel" destination="ZMB-4P-Ht0" id="Vr5-2H-aeN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBV-ai-Yto" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

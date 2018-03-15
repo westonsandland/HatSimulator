@@ -39,12 +39,12 @@ class ViewController: UIViewController {
         if(segue.identifier == "ExistingSegue")
         {
             let dvc = segue.destination as! DeckViewController
-            dvc.deckID = enteredExistingText
+            dvc.ID = enteredExistingText
         }
         if(segue.identifier == "CreateSegue")
         {
             let cvc = segue.destination as! CreateViewController
-            cvc.deckID = enteredCreateText
+            cvc.ID = enteredCreateText
         }
     }
     

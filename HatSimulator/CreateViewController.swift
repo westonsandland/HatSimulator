@@ -10,7 +10,7 @@ import UIKit
 
 class CreateViewController: UIViewController {
     
-    var deckID : String! = "default"
+    var ID : String! = "default"
     
     override func viewDidLoad() {
         super.viewDidLoad()
