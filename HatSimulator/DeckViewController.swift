@@ -19,14 +19,22 @@ class DeckViewController: UIViewController {
     
     @IBOutlet weak var CardLabel: UILabel!
     
-    
     @IBAction func NextCardRequest(_ sender: Any) {
-        position = (position + 1) % (cards.count)
+        position = (position + 1) % cards.count
         setCardText()
+        writeDeckToFile()
     }
     
     @IBAction func PreviousCardRequest(_ sender: Any) {
-        position -= 1
+        position = (position - 1) % cards.count
+        setCardText()
+        writeDeckToFile()
+    }
+    
+    @IBAction func ShuffleRequest(_ sender: Any) {
+        shuffleCards()
+        setCardText()
+        writeDeckToFile()
     }
     
     override func viewDidLoad() {

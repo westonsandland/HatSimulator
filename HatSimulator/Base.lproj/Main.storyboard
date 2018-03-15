@@ -150,6 +150,9 @@
                                 <rect key="frame" x="232" y="598" width="89" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Shuffle Deck"/>
+                                <connections>
+                                    <action selector="ShuffleRequest:" destination="9kc-Fo-kXs" eventType="touchUpInside" id="vPo-bQ-OSh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
