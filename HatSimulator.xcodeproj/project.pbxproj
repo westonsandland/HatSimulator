@@ -16,6 +16,7 @@
 		BE60BC1E2059AF13004AB3F1 /* HatSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */; };
 		BE60BC2C2059B45A004AB3F1 /* DeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */; };
 		BE60BC2E2059B47B004AB3F1 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */; };
+		E3864FFAEB9A5F487BEED471 /* Pods_HatSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AD45ED3CA449507D28A963 /* Pods_HatSimulator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89FA4E76DF63825596DD4B08 /* Pods-HatSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HatSimulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 		BE60BBFA2059AF13004AB3F1 /* HatSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE60BBFF2059AF13004AB3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		BE60BC1F2059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViewController.swift; sourceTree = "<group>"; };
 		BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		D7AD45ED3CA449507D28A963 /* Pods_HatSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HatSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13F92DCB0411E107EC6B327 /* Pods-HatSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HatSimulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3864FFAEB9A5F487BEED471 /* Pods_HatSimulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA775AB7FE8E409CCB36683 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89FA4E76DF63825596DD4B08 /* Pods-HatSimulator.debug.xcconfig */,
+				F13F92DCB0411E107EC6B327 /* Pods-HatSimulator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3065533D34D7147F4760EE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7AD45ED3CA449507D28A963 /* Pods_HatSimulator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE60BBF12059AF13004AB3F1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				BE60BC112059AF13004AB3F1 /* HatSimulatorTests */,
 				BE60BC1C2059AF13004AB3F1 /* HatSimulatorUITests */,
 				BE60BBFB2059AF13004AB3F1 /* Products */,
+				0BA775AB7FE8E409CCB36683 /* Pods */,
+				3065533D34D7147F4760EE01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE60BC222059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulator" */;
 			buildPhases = (
+				FC7D21451D197638A39B6C8E /* [CP] Check Pods Manifest.lock */,
 				BE60BBF62059AF13004AB3F1 /* Sources */,
 				BE60BBF72059AF13004AB3F1 /* Frameworks */,
 				BE60BBF82059AF13004AB3F1 /* Resources */,
+				962B77A3B6D20A495647DBFA /* [CP] Embed Pods Frameworks */,
+				6135A9825CB7DA1A86685909 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,76 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6135A9825CB7DA1A86685909 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962B77A3B6D20A495647DBFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7D21451D197638A39B6C8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HatSimulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE60BBF62059AF13004AB3F1 /* Sources */ = {
@@ -432,6 +529,7 @@
 		};
 		BE60BC232059AF13004AB3F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FA4E76DF63825596DD4B08 /* Pods-HatSimulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +545,7 @@
 		};
 		BE60BC242059AF13004AB3F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13F92DCB0411E107EC6B327 /* Pods-HatSimulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
