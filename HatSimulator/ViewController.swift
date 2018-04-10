@@ -50,6 +50,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let db : DatabaseController = DatabaseController()
+        db.createCard(deckCards: ["a","b","c"], deckID: "hi", deckName: "goodbye")  
         // Do any additional setup after loading the view, typically from a nib.
     }
     

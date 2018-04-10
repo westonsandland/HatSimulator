@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B842798643A0E073C669B646 /* Pods_HatSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE3ADA22D129F9F459233C2 /* Pods_HatSimulator.framework */; };
+		BE39F6DB20705A4400DCD981 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE39F6DA20705A4400DCD981 /* DatabaseController.swift */; };
+		BE3C4C532070680C003CE681 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BE3C4C522070680C003CE681 /* awsconfiguration.json */; };
 		BE60BBFE2059AF13004AB3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */; };
 		BE60BC002059AF13004AB3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BBFF2059AF13004AB3F1 /* ViewController.swift */; };
 		BE60BC032059AF13004AB3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE60BC012059AF13004AB3F1 /* Main.storyboard */; };
@@ -16,6 +19,7 @@
 		BE60BC1E2059AF13004AB3F1 /* HatSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */; };
 		BE60BC2C2059B45A004AB3F1 /* DeckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */; };
 		BE60BC2E2059B47B004AB3F1 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */; };
+		BEEC471A20746FD600C251DB /* Decks.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEC471920746FD600C251DB /* Decks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +40,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE27B1CB205DCF0200180D87 /* HatSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HatSimulator.app; path = "/Users/westonsandland/Desktop/HatSimulator/build/Debug-iphoneos/HatSimulator.app"; sourceTree = "<absolute>"; };
+		1BE3ADA22D129F9F459233C2 /* Pods_HatSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HatSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		599A8AB401B2FC8C1B7D42E8 /* Pods-HatSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HatSimulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator.release.xcconfig"; sourceTree = "<group>"; };
+		9F2C92B9C40B520A67CF56AC /* Pods-HatSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HatSimulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator.debug.xcconfig"; sourceTree = "<group>"; };
+		BE39F6DA20705A4400DCD981 /* DatabaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		BE3C4C522070680C003CE681 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE60BBFF2059AF13004AB3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE60BC022059AF13004AB3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE60BC042059AF13004AB3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE60BC072059AF13004AB3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE60BC092059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE60BC0E2059AF13004AB3F1 /* HatSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HatSimulatorTests.xctest; path = "/Users/westonsandland/Desktop/HatSimulator/build/Debug-iphoneos/HatSimulatorTests.xctest"; sourceTree = "<absolute>"; };
 		BE60BC122059AF13004AB3F1 /* HatSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatSimulatorTests.swift; sourceTree = "<group>"; };
 		BE60BC142059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE60BC192059AF13004AB3F1 /* HatSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HatSimulatorUITests.xctest; path = "/Users/westonsandland/Desktop/HatSimulator/build/Debug-iphoneos/HatSimulatorUITests.xctest"; sourceTree = "<absolute>"; };
 		BE60BC1D2059AF13004AB3F1 /* HatSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatSimulatorUITests.swift; sourceTree = "<group>"; };
 		BE60BC1F2059AF13004AB3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckViewController.swift; sourceTree = "<group>"; };
 		BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		BEE50ABA205DDE0200F5FE60 /* HatSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE50ABB205DDE0200F5FE60 /* HatSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE50ABC205DDE0200F5FE60 /* HatSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HatSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEC471920746FD600C251DB /* Decks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B842798643A0E073C669B646 /* Pods_HatSimulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +89,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A774E26BC23B47E66AFB94B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE3ADA22D129F9F459233C2 /* Pods_HatSimulator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B307D0BC4BB72BF0660F079D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F2C92B9C40B520A67CF56AC /* Pods-HatSimulator.debug.xcconfig */,
+				599A8AB401B2FC8C1B7D42E8 /* Pods-HatSimulator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BE60BBF12059AF13004AB3F1 = {
 			isa = PBXGroup;
 			children = (
 				BE60BBFC2059AF13004AB3F1 /* HatSimulator */,
 				BE60BC112059AF13004AB3F1 /* HatSimulatorTests */,
 				BE60BC1C2059AF13004AB3F1 /* HatSimulatorUITests */,
+				B307D0BC4BB72BF0660F079D /* Pods */,
+				8A774E26BC23B47E66AFB94B /* Frameworks */,
+				BEE50ABA205DDE0200F5FE60 /* HatSimulator.app */,
+				BEE50ABB205DDE0200F5FE60 /* HatSimulatorTests.xctest */,
+				BEE50ABC205DDE0200F5FE60 /* HatSimulatorUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,11 +126,14 @@
 				BE60BBFD2059AF13004AB3F1 /* AppDelegate.swift */,
 				BE60BBFF2059AF13004AB3F1 /* ViewController.swift */,
 				BE60BC012059AF13004AB3F1 /* Main.storyboard */,
+				BEEC471920746FD600C251DB /* Decks.swift */,
 				BE60BC2B2059B45A004AB3F1 /* DeckViewController.swift */,
 				BE60BC2D2059B47B004AB3F1 /* CreateViewController.swift */,
+				BE39F6DA20705A4400DCD981 /* DatabaseController.swift */,
 				BE60BC042059AF13004AB3F1 /* Assets.xcassets */,
 				BE60BC062059AF13004AB3F1 /* LaunchScreen.storyboard */,
 				BE60BC092059AF13004AB3F1 /* Info.plist */,
+				BE3C4C522070680C003CE681 /* awsconfiguration.json */,
 			);
 			path = HatSimulator;
 			sourceTree = "<group>";
@@ -127,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE60BC222059AF13004AB3F1 /* Build configuration list for PBXNativeTarget "HatSimulator" */;
 			buildPhases = (
+				2D4BA14F5DF725183DB0A7B1 /* [CP] Check Pods Manifest.lock */,
 				BE60BBF62059AF13004AB3F1 /* Sources */,
 				BE60BBF72059AF13004AB3F1 /* Frameworks */,
 				BE60BBF82059AF13004AB3F1 /* Resources */,
+				1EC7AA9E395CAD709C53540A /* [CP] Embed Pods Frameworks */,
+				38E3C6323EA911CCA731016B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,7 +176,7 @@
 			);
 			name = HatSimulator;
 			productName = HatSimulator;
-			productReference = BE27B1CB205DCF0200180D87 /* HatSimulator.app */;
+			productReference = BEE50ABA205DDE0200F5FE60 /* HatSimulator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		BE60BC0D2059AF13004AB3F1 /* HatSimulatorTests */ = {
@@ -155,7 +194,7 @@
 			);
 			name = HatSimulatorTests;
 			productName = HatSimulatorTests;
-			productReference = BE60BC0E2059AF13004AB3F1 /* HatSimulatorTests.xctest */;
+			productReference = BEE50ABB205DDE0200F5FE60 /* HatSimulatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BE60BC182059AF13004AB3F1 /* HatSimulatorUITests */ = {
@@ -173,7 +212,7 @@
 			);
 			name = HatSimulatorUITests;
 			productName = HatSimulatorUITests;
-			productReference = BE60BC192059AF13004AB3F1 /* HatSimulatorUITests.xctest */;
+			productReference = BEE50ABC205DDE0200F5FE60 /* HatSimulatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3C4C532070680C003CE681 /* awsconfiguration.json in Resources */,
 				BE60BC082059AF13004AB3F1 /* LaunchScreen.storyboard in Resources */,
 				BE60BC052059AF13004AB3F1 /* Assets.xcassets in Resources */,
 				BE60BC032059AF13004AB3F1 /* Main.storyboard in Resources */,
@@ -249,12 +289,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EC7AA9E395CAD709C53540A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D4BA14F5DF725183DB0A7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HatSimulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38E3C6323EA911CCA731016B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HatSimulator/Pods-HatSimulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE60BBF62059AF13004AB3F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE60BC2E2059B47B004AB3F1 /* CreateViewController.swift in Sources */,
+				BE39F6DB20705A4400DCD981 /* DatabaseController.swift in Sources */,
+				BEEC471A20746FD600C251DB /* Decks.swift in Sources */,
 				BE60BC002059AF13004AB3F1 /* ViewController.swift in Sources */,
 				BE60BBFE2059AF13004AB3F1 /* AppDelegate.swift in Sources */,
 				BE60BC2C2059B45A004AB3F1 /* DeckViewController.swift in Sources */,
@@ -421,6 +523,7 @@
 		};
 		BE60BC232059AF13004AB3F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2C92B9C40B520A67CF56AC /* Pods-HatSimulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -436,6 +539,7 @@
 		};
 		BE60BC242059AF13004AB3F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599A8AB401B2FC8C1B7D42E8 /* Pods-HatSimulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
